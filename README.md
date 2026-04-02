@@ -128,7 +128,7 @@ daily_tool: Claude Code ($100/mo) — not a buzzword, it's my workflow
 
 ---
 
-## 🐍 Contribution Snake
+## 🐍 Contribution Mapanare
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ViT4RGh0ST/ViT4RGh0ST/output/github-contribution-grid-snake-dark.svg" />
@@ -136,39 +136,6 @@ daily_tool: Claude Code ($100/mo) — not a buzzword, it's my workflow
   <img alt="github-snake" src="https://raw.githubusercontent.com/ViT4RGh0ST/ViT4RGh0ST/output/github-contribution-grid-snake-dark.svg" />
 </picture>
 
-<!--
-To enable the snake animation, create a GitHub Action:
-1. In your ViT4RGh0ST repo, go to Actions → New Workflow
-2. Create .github/workflows/snake.yml with:
-
-name: Generate Snake
-on:
-  schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
-permissions:
-  contents: write
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: Platane/snk@v3
-        with:
-          github_user_name: ViT4RGh0ST
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-      - uses: crazy-max/ghaction-github-pages@v3
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-3. Run the workflow manually once, then it runs daily
--->
-
----
 
 ## 🎯 Current Focus
 
